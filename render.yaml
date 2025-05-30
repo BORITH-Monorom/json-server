@@ -1,0 +1,14 @@
+# Exported from Render on 2025-05-30T04:26:02Z
+services:
+- type: web
+  name: json-server
+  runtime: node
+  repo: https://github.com/BORITH-Monorom/json-server
+  plan: free
+  region: oregon
+  buildCommand: npm install
+  startCommand: npm start
+  domains:
+  - json-server.monorom.uk
+  autoDeployTrigger: commit
+version: "1"
