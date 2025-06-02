@@ -1,138 +1,165 @@
 {
-    "industries": [
-      { "id": 1, "name": "Information Technology", "description": "Software development, networking, and IT support services." },
-      { "id": 2, "name": "Healthcare", "description": "Medical care, nursing, and pharmaceutical industries." },
-      { "id": 3, "name": "Education", "description": "Teaching, academic research, and educational services." },
-      { "id": 4, "name": "Finance", "description": "Banking, investing, and financial consulting." },
-      { "id": 5, "name": "Construction", "description": "Building infrastructure and real estate development." },
-      { "id": 6, "name": "Manufacturing", "description": "Production of goods in factories and plants." },
-      { "id": 7, "name": "Retail", "description": "Selling goods directly to consumers in stores or online." },
-      { "id": 8, "name": "Hospitality", "description": "Hotels, restaurants, and tourism services." },
-      { "id": 9, "name": "Transportation", "description": "Logistics, shipping, and delivery services." },
-      { "id": 10, "name": "Legal Services", "description": "Law firms, legal consulting, and judiciary roles." },
-      { "id": 11, "name": "Agriculture", "description": "Farming, crop production, and agribusiness." },
-      { "id": 12, "name": "Telecommunications", "description": "Phone, internet, and communication networks." },
-      { "id": 13, "name": "Energy", "description": "Oil, gas, renewable energy, and utility services." },
-      { "id": 14, "name": "Arts & Entertainment", "description": "Film, music, and performing arts industries." },
-      { "id": 15, "name": "Marketing & Advertising", "description": "Promotional strategies and brand communication." },
-      { "id": 16, "name": "Real Estate", "description": "Property management, sales, and development." },
-      { "id": 17, "name": "Human Resources", "description": "Recruitment, employee relations, and talent management." },
-      { "id": 18, "name": "Engineering", "description": "Civil, mechanical, electrical, and software engineering." },
-      { "id": 19, "name": "Non-Profit", "description": "Charitable organizations and community development." },
-      { "id": 20, "name": "Public Sector", "description": "Government administration and civil services." },
-      { "id": 21, "name": "Logistics", "description": "Supply chain management and warehousing." },
-      { "id": 22, "name": "Insurance", "description": "Risk management and coverage services." },
-      { "id": 23, "name": "Automotive", "description": "Vehicle manufacturing, repair, and sales." },
-      { "id": 24, "name": "Aerospace", "description": "Aircraft manufacturing and space technologies." },
-      { "id": 25, "name": "Environmental Services", "description": "Waste management and environmental consulting." },
-      { "id": 26, "name": "Biotechnology", "description": "Genetic research, pharma, and medical innovations." },
-      { "id": 27, "name": "Media & Journalism", "description": "News reporting, publishing, and broadcasting." },
-      { "id": 28, "name": "E-commerce", "description": "Online shopping platforms and services." },
-      { "id": 29, "name": "Cybersecurity", "description": "Protecting systems and networks from digital threats." },
-      { "id": 30, "name": "Fashion", "description": "Design, production, and retail of clothing and accessories." },
-      { "id": 31, "name": "Fitness & Wellness", "description": "Gyms, personal training, and health coaching." },
-      { "id": 32, "name": "Food & Beverage", "description": "Restaurants, food manufacturing, and catering." },
-      { "id": 33, "name": "Real Estate", "description": "Property management, sales, and development." }
-    ],
-  
-    "reason_leave":[
-        {
-        "id": 1,
-        "reason": "Pursuing higher education opportunities"
-      },
-      {
-        "id": 2,
-        "reason": "Relocating to a different city"
-      },
-      {
-        "id": 3,
-        "reason": "Seeking better work-life balance"
-      },
-      {
-        "id": 4,
-        "reason": "Career change to a different industry"
-      },
-      {
-        "id": 5,
-        "reason": "Accepted a higher-paying job offer"
-      },
-      {
-        "id": 6,
-        "reason": "Company restructuring or downsizing"
-      },
-      {
-        "id": 7,
-        "reason": "Lack of growth or advancement opportunities"
-      },
-      {
-        "id": 8,
-        "reason": "Desire to start a personal business"
-      },
-      {
-        "id": 9,
-        "reason": "Work environment was not a good fit"
-      },
-      {
-        "id": 10,
-        "reason": "Contract or temporary position ended"
-      }
-    ],
-  
-    "province": [
-    { "id": 1, "name": "Tboung Khmum" },
-    { "id": 2, "name": "Takéo" },
-    { "id": 3, "name": "Svay Rieng" },
-    { "id": 4, "name": "Stung Treng" },
-    { "id": 5, "name": "Siem Reap" },
-    { "id": 6, "name": "Ratanakiri" },
-    { "id": 7, "name": "Pursat" },
-    { "id": 8, "name": "Prey Veng" },
-    { "id": 9, "name": "Preah Vihear" },
-    { "id": 10, "name": "Preah Sihanouk" },
-    { "id": 11, "name": "Phnom Penh" },
-    { "id": 12, "name": "Pailin" },
-    { "id": 13, "name": "Oddar Meanchey" },
-    { "id": 14, "name": "Mondulkiri" },
-    { "id": 15, "name": "Kratié" },
-    { "id": 16, "name": "Koh Kong" },
-    { "id": 17, "name": "Kep" },
-    { "id": 18, "name": "Kandal" },
-    { "id": 19, "name": "Kampot" },
-    { "id": 20, "name": "Kampong Thom" },
-    { "id": 21, "name": "Kampong Speu" },
-    { "id": 22, "name": "Kampong Chhnang" },
-    { "id": 23, "name": "Kampong Cham" },
-    { "id": 24, "name": "Battambang" },
-    { "id": 25, "name": "Banteay Meanchey" }
+  "industries": [
+    { "id": 1, "name": "Information Technology", "description": "Software development, networking, and IT support services." },
+    { "id": 2, "name": "Healthcare", "description": "Medical care, nursing, and pharmaceutical industries." },
+    { "id": 3, "name": "Education", "description": "Teaching, academic research, and educational services." },
+    { "id": 4, "name": "Finance", "description": "Banking, investing, and financial consulting." },
+    { "id": 5, "name": "Construction", "description": "Building infrastructure and real estate development." },
+    { "id": 6, "name": "Manufacturing", "description": "Production of goods in factories and plants." },
+    { "id": 7, "name": "Retail", "description": "Selling goods directly to consumers in stores or online." },
+    { "id": 8, "name": "Hospitality", "description": "Hotels, restaurants, and tourism services." },
+    { "id": 9, "name": "Transportation", "description": "Logistics, shipping, and delivery services." },
+    { "id": 10, "name": "Legal Services", "description": "Law firms, legal consulting, and judiciary roles." },
+    { "id": 11, "name": "Agriculture", "description": "Farming, crop production, and agribusiness." },
+    { "id": 12, "name": "Telecommunications", "description": "Phone, internet, and communication networks." },
+    { "id": 13, "name": "Energy", "description": "Oil, gas, renewable energy, and utility services." },
+    { "id": 14, "name": "Arts & Entertainment", "description": "Film, music, and performing arts industries." },
+    { "id": 15, "name": "Marketing & Advertising", "description": "Promotional strategies and brand communication." },
+    { "id": 16, "name": "Real Estate", "description": "Property management, sales, and development." },
+    { "id": 17, "name": "Human Resources", "description": "Recruitment, employee relations, and talent management." },
+    { "id": 18, "name": "Engineering", "description": "Civil, mechanical, electrical, and software engineering." },
+    { "id": 19, "name": "Non-Profit", "description": "Charitable organizations and community development." },
+    { "id": 20, "name": "Public Sector", "description": "Government administration and civil services." },
+    { "id": 21, "name": "Logistics", "description": "Supply chain management and warehousing." },
+    { "id": 22, "name": "Insurance", "description": "Risk management and coverage services." },
+    { "id": 23, "name": "Automotive", "description": "Vehicle manufacturing, repair, and sales." },
+    { "id": 24, "name": "Aerospace", "description": "Aircraft manufacturing and space technologies." },
+    { "id": 25, "name": "Environmental Services", "description": "Waste management and environmental consulting." },
+    { "id": 26, "name": "Biotechnology", "description": "Genetic research, pharma, and medical innovations." },
+    { "id": 27, "name": "Media & Journalism", "description": "News reporting, publishing, and broadcasting." },
+    { "id": 28, "name": "E-commerce", "description": "Online shopping platforms and services." },
+    { "id": 29, "name": "Cybersecurity", "description": "Protecting systems and networks from digital threats." },
+    { "id": 30, "name": "Fashion", "description": "Design, production, and retail of clothing and accessories." },
+    { "id": 31, "name": "Fitness & Wellness", "description": "Gyms, personal training, and health coaching." },
+    { "id": 32, "name": "Food & Beverage", "description": "Restaurants, food manufacturing, and catering." },
+    { "id": 33, "name": "Real Estate", "description": "Property management, sales, and development." }
   ],
-  
-  "language": [
-    { "id": 1, "category": "English", "items": ["Excellent", "Above Average", "Good", "Fair", "Poor"] },
-    { "id": 2, "category": "Khmer", "items":   ["Excellent", "Above Average", "Good", "Fair", "Poor"] },
-    { "id": 3, "category": "China", "items":   ["Excellent", "Above Average", "Good", "Fair", "Poor"] }
-  ],
-  
-  "software": [
+
+  "reason_leave":[
       {
       "id": 1,
-      "category": "General & Internet",
-      "items": ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint",  "Slack", "Trello"]
+      "reason": "Pursuing higher education opportunities"
     },
-      {
+    {
       "id": 2,
-      "category": "Design & Creative",
-      "items":["Adobe Photoshop", "Adobe Illustrator", "CorelDRAW", "Canva", "Figma"]
+      "reason": "Relocating to a different city"
     },
-      {
+    {
       "id": 3,
-      "category": "Accounting Software",
-      "items":["QuickBooks", "Xero", "FreshBooks", "Sage", "Zoho Books"]
+      "reason": "Seeking better work-life balance"
     },
-      {
+    {
       "id": 4,
-      "category": "Development Tools",
-      "items":["Asana", "Jira", "Monday.com", "Basecamp", "Microsoft Project"]
+      "reason": "Career change to a different industry"
+    },
+    {
+      "id": 5,
+      "reason": "Accepted a higher-paying job offer"
+    },
+    {
+      "id": 6,
+      "reason": "Company restructuring or downsizing"
+    },
+    {
+      "id": 7,
+      "reason": "Lack of growth or advancement opportunities"
+    },
+    {
+      "id": 8,
+      "reason": "Desire to start a personal business"
+    },
+    {
+      "id": 9,
+      "reason": "Work environment was not a good fit"
+    },
+    {
+      "id": 10,
+      "reason": "Contract or temporary position ended"
     }
-  ]
+  ],
+
+  "province": [
+  { "id": 1, "name": "Tboung Khmum" },
+  { "id": 2, "name": "Takéo" },
+  { "id": 3, "name": "Svay Rieng" },
+  { "id": 4, "name": "Stung Treng" },
+  { "id": 5, "name": "Siem Reap" },
+  { "id": 6, "name": "Ratanakiri" },
+  { "id": 7, "name": "Pursat" },
+  { "id": 8, "name": "Prey Veng" },
+  { "id": 9, "name": "Preah Vihear" },
+  { "id": 10, "name": "Preah Sihanouk" },
+  { "id": 11, "name": "Phnom Penh" },
+  { "id": 12, "name": "Pailin" },
+  { "id": 13, "name": "Oddar Meanchey" },
+  { "id": 14, "name": "Mondulkiri" },
+  { "id": 15, "name": "Kratié" },
+  { "id": 16, "name": "Koh Kong" },
+  { "id": 17, "name": "Kep" },
+  { "id": 18, "name": "Kandal" },
+  { "id": 19, "name": "Kampot" },
+  { "id": 20, "name": "Kampong Thom" },
+  { "id": 21, "name": "Kampong Speu" },
+  { "id": 22, "name": "Kampong Chhnang" },
+  { "id": 23, "name": "Kampong Cham" },
+  { "id": 24, "name": "Battambang" },
+  { "id": 25, "name": "Banteay Meanchey" }
+],
+
+"language": [
+  { "id": 1, "category": "English", "items": ["Excellent", "Above Average", "Good", "Fair", "Poor"] },
+  { "id": 2, "category": "Khmer", "items":   ["Excellent", "Above Average", "Good", "Fair", "Poor"] },
+  { "id": 3, "category": "China", "items":   ["Excellent", "Above Average", "Good", "Fair", "Poor"] }
+],
+
+"software": [
+    {
+    "id": 1,
+    "category": "General & Internet",
+    "items": ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint",  "Slack", "Trello"]
+  },
+    {
+    "id": 2,
+    "category": "Design & Creative",
+    "items":["Adobe Photoshop", "Adobe Illustrator", "CorelDRAW", "Canva", "Figma"]
+  },
+    {
+    "id": 3,
+    "category": "Accounting Software",
+    "items":["QuickBooks", "Xero", "FreshBooks", "Sage", "Zoho Books"]
+  },
+    {
+    "id": 4,
+    "category": "Development Tools",
+    "items":["Asana", "Jira", "Monday.com", "Basecamp", "Microsoft Project"]
   }
-  
+],
+
+"findout_hrinc":[
+{
+  "id": 1,
+  "category": "facebook page",
+  "items": ["ReCruitment Cambodia by HRINC", "HRINC Jobs", "HRINC TAC Cambodia", "HRINC Executive Search", "HRINC Technical Recruitment Specialists"]
+},
+{
+  "id": 2,
+  "category": "linkedin & social media",
+  "items": ["HRINC (Cambodia) Co.,Ltd", "Recruitment Myanmar by HRINC", "HRINC Jobs", "Telegram: HRINC Jobs Channel", "Instagram: hrinc_jobs", "YouTube: HRINC Jobs"]
+},
+{
+  "id": 3,
+  "category": "WEBSITE and Others",
+  "items": ["HRINC Jobs (www.hrincjobs.com)", "HRINC (www.hrinc.asia)", "Friends/Family Members", "Universities:"]
+}
+],
+"contact_method": [
+   { "id": 1, "name": "Phone Call" },
+   { "id": 2, "name": "Telegram" },
+   { "id": 3, "name": "Facebook Messenger" },
+   { "id": 4, "name": "Whatsapp" },
+   { "id": 5, "name": "Line" },
+   { "id": 6, "name": "Mobile Job Portal" }
+]
+
+}
+
