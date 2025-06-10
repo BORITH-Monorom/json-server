@@ -152,6 +152,171 @@
   "items": ["HRINC Jobs (www.hrincjobs.com)", "HRINC (www.hrinc.asia)", "Friends/Family Members", "Universities:"]
 }
 ],
+
+ "hrinc_platforms": [
+    {
+      "platform": "LINKEDIN PAGE",
+      "sources": [
+        {
+          "id": 1,
+          "title": "HRINC Jobs.com"
+        },
+        {
+          "id": 2,
+          "title": "HRINC Jobs"
+        },
+        {
+          "id": 3,
+          "title": "HRINC (Cambodia) Co., Ltd"
+        },
+        {
+          "id": 4,
+          "title": "HRINC (Myanmar) Co., Ltd."
+        },
+        {
+          "id": 5,
+          "title": "Recruitment Myanmar by HRINC"
+        }
+      ]
+    },
+    {
+      "platform": "FACEBOOK PAGE",
+      "sources": [
+        {
+          "id": 6,
+          "title": "HRINC Jobs"
+        },
+        {
+          "id": 7,
+          "title": "HRINC Cambodia"
+        },
+        {
+          "id": 8,
+          "title": "HRINC Executive Search"
+        },
+        {
+          "id": 9,
+          "title": "HRINC Outsourcing"
+        }
+      ]
+    },
+    {
+      "platform": "Others",
+      "sources": [
+        {
+          "id": 10,
+          "title": "Instagram: hrinc_jobs"
+        },
+        {
+          "id": 11,
+          "title": "Instagram: recruitmentcambodia_hrinc"
+        },
+        {
+          "id": 12,
+          "title": "Instagram: recruitmentmyanmar_by_hrinc"
+        },
+        {
+          "id": 13,
+          "title": "Telegram: HRINC Jobs"
+        },
+        {
+          "id": 14,
+          "title": "Tik Tok: HRINC Jobs"
+        },
+        {
+          "id": 15,
+          "title": "YouTube: HRINC Jobs"
+        }
+      ]
+    }
+  ],
+
+"software_skills": [
+    {
+      "parent_skill": "Microsoft Software & General Productivity",
+      "skills": [
+        "Email",
+        "Google Classroom",
+        "Zoom",
+        "Google Drive",
+        "Microsoft OneDrive",
+        "Microsoft Outlook Calendar",
+        "Microsoft OneNote",
+        "Microsoft Access",
+        "Microsoft Teams",
+        "Microsoft Form",
+        "Microsoft Outlook",
+        "Microsoft PowerPoint",
+        "Microsoft Excel",
+        "Microsoft Word"
+      ]
+    },
+    {
+      "parent_skill": "Engineering Software & Development Tools",
+      "skills": [
+        "MySQL Server",
+        "React",
+        "Node.js",
+        "Docker",
+        "Android Studio",
+        "Python",
+        "Git / GitHub",
+        "Visual Studio",
+        "Siemens NX",
+        "Civil 3D (Autodesk)",
+        "Revit (Autodesk)",
+        "STAAD.Pro",
+        "MATLAB",
+        "SketchUp",
+        "SolidWorks",
+        "AutoCAD (Autodesk)"
+      ]
+    },
+    {
+      "parent_skill": "Accounting, Data Science & Analytics Software",
+      "skills": [
+        "Excel Power Query",
+        "Google Form",
+        "Microsoft Project",
+        "Microsoft Power BI",
+        "Google Analytics",
+        "Google AI Platform",
+        "KoBoToolbox",
+        "SPSS (IBM)",
+        "SAS",
+        "NetSuite ERP",
+        "SAP ERP Financials",
+        "Microsoft Dynamics 365 Finance",
+        "Oracle Financial",
+        "Sage Business Cloud Accounting",
+        "Xero",
+        "QuickBooks Online"
+      ]
+    },
+    {
+      "parent_skill": "HR, Sales & CRM, Marketing Design Software ",
+      "skills": [
+        "Trello",
+        "SEO Tools",
+        "After Effects",
+        "Figma",
+        "Sketch",
+        "CorelDRAW",
+        "Canva",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Shopify",
+        "HubSpot CRM",
+        "Zoho CRM",
+        "Salesforce",
+        "iCIMS",
+        "Oracle ERP Cloud",
+        "SAP SuccessFactors",
+        "Workday HCM"
+      ]
+    }
+  ],
+
 "contact_method": [
    { "id": 1, "name": "Phone Call" },
    { "id": 2, "name": "Telegram" },
@@ -159,7 +324,177 @@
    { "id": 4, "name": "Whatsapp" },
    { "id": 5, "name": "Line" },
    { "id": 6, "name": "Mobile Job Portal" }
-]
+],
+
+"benefit":[
+  { "id": 1, "name": "Yearly Increase Percentage %" },
+  { "id": 2, "name": "13th month bonus" },
+  { "id": 3, "name": "Variable performance bonus" },
+  { "id": 4, "name": "Family health insurance" },
+  { "id": 5, "name": "Sale Incentive (Monthly, Quarterly or Yearly)" },
+  { "id": 6, "name": "Education Allowance" },
+  { "id": 7, "name": "Signing Bonus / Retention Bonus" },
+  { "id": 8, "name": "Professional Development/Training" },
+  { "id": 9, "name": "Company Provident Fund" },
+  { "id": 10, "name": "Kids’ Education Support" },
+  { "id": 11, "name": "Profit Sharing" },
+  { "id": 12, "name": "Wellness Programs (e.g. Gym membership, yoga)" },
+  { "id": 13, "name": "Accommodation Allowance" },
+  { "id": 14, "name": "Flexible Work Hours" },
+  { "id": 15, "name": "Transportation/ Petrol Allowance" },
+  { "id": 16, "name": "Remote Work Options" },
+  { "id": 17, "name": "Mobile/Phone Allowance" },
+  { "id": 18, "name": "Recognition Programs / Awards" },
+  { "id": 19, "name": "Meal Allowance" },
+  { "id": 20, "name": "Staff Loan" },
+  { "id": 21, "name": "Medical Aid" },
+  { "id": 22, "name": "Others: (please specify)" },
+  { "id": 23, "name": "Accident Insurance" },
+  { "id": 24, "name": "Health Insurance" },
+  { "id": 25, "name": "Life Insurance" }
+],
+
+ "competencies": [
+    {
+      "name": "Adaptability",
+      "definition": "The ability to adjust to new conditions and handle unexpected challenges.",
+      "beginner_level_description": "Reacts to change; adjusts to new tasks.",
+      "intermediate_level_description": "Embraces change; seeks to understand its impact.",
+      "advanced_level_description": "Leads change initiatives; adapts strategy dynamically, ensuring organisational resilience."
+    },
+    {
+      "name": "Analytical Thinking",
+      "definition": "The skill of understanding and solving complex problems through analysis.",
+      "beginner_level_description": "Identifies basic patterns and problems.",
+      "intermediate_level_description": "Analyses data to inform decisions.",
+      "advanced_level_description": "Integrates complex data across sources; drives strategic decisions."
+    },
+    {
+      "name": "Communication",
+      "definition": "The capacity to convey information effectively and efficiently.",
+      "beginner_level_description": "Communicates in straightforward situations.",
+      "intermediate_level_description": "Communicates complex ideas clearly in group settings.",
+      "advanced_level_description": "Excels in persuasive communication; influences and negotiates effectively."
+    },
+    {
+      "name": "Conflict Resolution",
+      "definition": "The ability to identify, address, and manage conflicts constructively.",
+      "beginner_level_description": "Recognizes conflicts and alerts supervisors.",
+      "intermediate_level_description": "Mediates conflicts directly to find mutual solutions.",
+      "advanced_level_description": "Manages complex conflicts, guides others in resolution techniques."
+    },
+    {
+      "name": "Creativity",
+      "definition": "The capacity to think outside the box and generate innovative ideas.",
+      "beginner_level_description": "Applies basic creativity to tasks as directed.",
+      "intermediate_level_description": "Develops new approaches to improve work processes.",
+      "advanced_level_description": "Leads innovation initiatives, champions a culture of creativity and experimentation."
+    },
+    {
+      "name": "Critical Thinking",
+      "definition": "The ability to analyse facts, generate and organise ideas, defend opinions, make comparisons, draw inferences, evaluate arguments and solve problems.",
+      "beginner_level_description": "Questions facts and seeks clarity.",
+      "intermediate_level_description": "Analyses information to form reasoned judgments.",
+      "advanced_level_description": "Synthesizes and integrates new information, influencing strategic decisions."
+    },
+    {
+      "name": "Customer Service",
+      "definition": "The skills needed to provide support and advice to customers effectively.",
+      "beginner_level_description": "Responds to customer inquiries.",
+      "intermediate_level_description": "Manages customer issues effectively.",
+      "advanced_level_description": "Drives customer engagement and loyalty programs."
+    },
+    {
+      "name": "Decision Making",
+      "definition": "The process of making choices by identifying a decision, gathering information, and assessing alternative resolutions.",
+      "beginner_level_description": "Makes simple decisions based on clear criteria.",
+      "intermediate_level_description": "Makes moderately complex decisions considering various factors.",
+      "advanced_level_description": "Makes strategic decisions under uncertainty, influences organisational direction."
+    },
+    {
+      "name": "Emotional Intelligence",
+      "definition": "The ability to perceive, control, and evaluate emotions in oneself and others.",
+      "beginner_level_description": "Recognizes own emotions and their effects.",
+      "intermediate_level_description": "Manages emotions and responds appropriately to others.",
+      "advanced_level_description": "Uses emotional information to guide thinking and behaviour, improves team relations."
+    },
+    {
+      "name": "Entrepreneurial",
+      "definition": "The ability and desire to develop, organise, and manage a business venture along with any of its risks to make a profit.",
+      "beginner_level_description": "Identifies opportunities for improvement.",
+      "intermediate_level_description": "Develops new ideas and initiatives for growth.",
+      "advanced_level_description": "Drives business innovation and strategic ventures."
+    },
+    {
+      "name": "Financial Acumen",
+      "definition": "The ability to understand and apply financial management principles in the workplace.",
+      "beginner_level_description": "Understands basic financial terms and concepts.",
+      "intermediate_level_description": "Analyses financial reports and contributes to budget planning.",
+      "advanced_level_description": "Strategises based on financial data to enhance business profitability."
+    },
+    {
+      "name": "Influence",
+      "definition": "The capacity to have an effect on the character, development, or behaviour of someone or something.",
+      "beginner_level_description": "Persuades peers with direct data or authority.",
+      "intermediate_level_description": "Influences cross-functional teams without formal authority.",
+      "advanced_level_description": "Shapes organisational strategy and external stakeholders’ perspectives."
+    },
+    {
+      "name": "Initiative",
+      "definition": "The ability to assess and initiate things independently.",
+      "beginner_level_description": "Takes on tasks without being told.",
+      "intermediate_level_description": "Seeks leadership roles in projects, suggests innovations.",
+      "advanced_level_description": "Leads projects and strategic initiatives impacting the broader business scope."
+    },
+    {
+      "name": "Integrity",
+      "definition": "The quality of being honest and having strong moral principles.",
+      "beginner_level_description": "Adheres to workplace rules and policies.",
+      "intermediate_level_description": "Demonstrates ethical behaviour, inspires trust.",
+      "advanced_level_description": "Upholds and champions integrity in complex scenarios, organisational ethics."
+    },
+    {
+      "name": "Interpersonal Skills",
+      "definition": "The skills used by a person to interact with others properly.",
+      "beginner_level_description": "Communicates effectively in direct interactions.",
+      "intermediate_level_description": "Builds relationships, mediates in team settings.",
+      "advanced_level_description": "Masters diplomacy, manages complex stakeholder relationships."
+    },
+    {
+      "name": "Leadership",
+      "definition": "The action of leading a group of people or an organisation.",
+      "beginner_level_description": "Directs small teams or projects effectively.",
+      "intermediate_level_description": "Inspires and motivates larger teams, manages performance.",
+      "advanced_level_description": "Visionary leadership, shapes organisational culture and strategy."
+    },
+    {
+      "name": "Negotiation",
+      "definition": "The ability to reach agreements between two or more parties with conflicting interests.",
+      "beginner_level_description": "Negotiates simple agreements effectively.",
+      "intermediate_level_description": "Manages complex negotiations, achieving favourable terms.",
+      "advanced_level_description": "Strategically negotiates major contracts impacting the organisation’s direction."
+    },
+    {
+      "name": "Organisational Skills",
+      "definition": "The ability to manage time and resources effectively to achieve desired outcomes.",
+      "beginner_level_description": "Keeps personal work area and tasks organised.",
+      "intermediate_level_description": "Coordinates multiple projects efficiently.",
+      "advanced_level_description": "Designs and implements organisational systems on a large scale."
+    },
+    {
+      "name": "Performance Management",
+      "definition": "The process of ensuring that set performance standards are achieved in a consistent manner.",
+      "beginner_level_description": "Assists in tracking performance metrics.",
+      "intermediate_level_description": "Manages and improves team performance.",
+      "advanced_level_description": "Leads organisation-wide performance enhancement strategies."
+    },
+    {
+      "name": "Personal Development",
+      "definition": "The commitment to improving one’s skills, abilities, and knowledge.",
+      "beginner_level_description": "Identifies areas for personal skill development.",
+      "intermediate_level_description": "Actively pursues learning and skills improvement.",
+      "advanced_level_description": "Mentors others and drives a culture of continuous personal growth."
+    }
+  ]
 
 }
-
