@@ -1,159 +1,1029 @@
 {
   "industries": [
-    { "id": 1, "name": "Information Technology", "description": "Software development, networking, and IT support services." },
-    { "id": 2, "name": "Healthcare", "description": "Medical care, nursing, and pharmaceutical industries." },
-    { "id": 3, "name": "Education", "description": "Teaching, academic research, and educational services." },
-    { "id": 4, "name": "Finance", "description": "Banking, investing, and financial consulting." },
-    { "id": 5, "name": "Construction", "description": "Building infrastructure and real estate development." },
-    { "id": 6, "name": "Manufacturing", "description": "Production of goods in factories and plants." },
-    { "id": 7, "name": "Retail", "description": "Selling goods directly to consumers in stores or online." },
-    { "id": 8, "name": "Hospitality", "description": "Hotels, restaurants, and tourism services." },
-    { "id": 9, "name": "Transportation", "description": "Logistics, shipping, and delivery services." },
-    { "id": 10, "name": "Legal Services", "description": "Law firms, legal consulting, and judiciary roles." },
-    { "id": 11, "name": "Agriculture", "description": "Farming, crop production, and agribusiness." },
-    { "id": 12, "name": "Telecommunications", "description": "Phone, internet, and communication networks." },
-    { "id": 13, "name": "Energy", "description": "Oil, gas, renewable energy, and utility services." },
-    { "id": 14, "name": "Arts & Entertainment", "description": "Film, music, and performing arts industries." },
-    { "id": 15, "name": "Marketing & Advertising", "description": "Promotional strategies and brand communication." },
-    { "id": 16, "name": "Real Estate", "description": "Property management, sales, and development." },
-    { "id": 17, "name": "Human Resources", "description": "Recruitment, employee relations, and talent management." },
-    { "id": 18, "name": "Engineering", "description": "Civil, mechanical, electrical, and software engineering." },
-    { "id": 19, "name": "Non-Profit", "description": "Charitable organizations and community development." },
-    { "id": 20, "name": "Public Sector", "description": "Government administration and civil services." },
-    { "id": 21, "name": "Logistics", "description": "Supply chain management and warehousing." },
-    { "id": 22, "name": "Insurance", "description": "Risk management and coverage services." },
-    { "id": 23, "name": "Automotive", "description": "Vehicle manufacturing, repair, and sales." },
-    { "id": 24, "name": "Aerospace", "description": "Aircraft manufacturing and space technologies." },
-    { "id": 25, "name": "Environmental Services", "description": "Waste management and environmental consulting." },
-    { "id": 26, "name": "Biotechnology", "description": "Genetic research, pharma, and medical innovations." },
-    { "id": 27, "name": "Media & Journalism", "description": "News reporting, publishing, and broadcasting." },
-    { "id": 28, "name": "E-commerce", "description": "Online shopping platforms and services." },
-    { "id": 29, "name": "Cybersecurity", "description": "Protecting systems and networks from digital threats." },
-    { "id": 30, "name": "Fashion", "description": "Design, production, and retail of clothing and accessories." },
-    { "id": 31, "name": "Fitness & Wellness", "description": "Gyms, personal training, and health coaching." },
-    { "id": 32, "name": "Food & Beverage", "description": "Restaurants, food manufacturing, and catering." },
-    { "id": 33, "name": "Real Estate", "description": "Property management, sales, and development." }
+    {
+      "id": "1",
+      "name": "Information Technology",
+      "description": "Software development, networking, and IT support services."
+    },
+    {
+      "id": "2",
+      "name": "Healthcare",
+      "description": "Medical care, nursing, and pharmaceutical industries."
+    },
+    {
+      "id": "3",
+      "name": "Education",
+      "description": "Teaching, academic research, and educational services."
+    },
+    {
+      "id": "4",
+      "name": "Finance",
+      "description": "Banking, investing, and financial consulting."
+    },
+    {
+      "id": "5",
+      "name": "Construction",
+      "description": "Building infrastructure and real estate development."
+    },
+    {
+      "id": "6",
+      "name": "Manufacturing",
+      "description": "Production of goods in factories and plants."
+    },
+    {
+      "id": "7",
+      "name": "Retail",
+      "description": "Selling goods directly to consumers in stores or online."
+    },
+    {
+      "id": "8",
+      "name": "Hospitality",
+      "description": "Hotels, restaurants, and tourism services."
+    },
+    {
+      "id": "9",
+      "name": "Transportation",
+      "description": "Logistics, shipping, and delivery services."
+    },
+    {
+      "id": "10",
+      "name": "Legal Services",
+      "description": "Law firms, legal consulting, and judiciary roles."
+    },
+    {
+      "id": "11",
+      "name": "Agriculture",
+      "description": "Farming, crop production, and agribusiness."
+    },
+    {
+      "id": "12",
+      "name": "Telecommunications",
+      "description": "Phone, internet, and communication networks."
+    },
+    {
+      "id": "13",
+      "name": "Energy",
+      "description": "Oil, gas, renewable energy, and utility services."
+    },
+    {
+      "id": "14",
+      "name": "Arts & Entertainment",
+      "description": "Film, music, and performing arts industries."
+    },
+    {
+      "id": "15",
+      "name": "Marketing & Advertising",
+      "description": "Promotional strategies and brand communication."
+    },
+    {
+      "id": "16",
+      "name": "Real Estate",
+      "description": "Property management, sales, and development."
+    },
+    {
+      "id": "17",
+      "name": "Human Resources",
+      "description": "Recruitment, employee relations, and talent management."
+    },
+    {
+      "id": "18",
+      "name": "Engineering",
+      "description": "Civil, mechanical, electrical, and software engineering."
+    },
+    {
+      "id": "19",
+      "name": "Non-Profit",
+      "description": "Charitable organizations and community development."
+    },
+    {
+      "id": "20",
+      "name": "Public Sector",
+      "description": "Government administration and civil services."
+    },
+    {
+      "id": "21",
+      "name": "Logistics",
+      "description": "Supply chain management and warehousing."
+    },
+    {
+      "id": "22",
+      "name": "Insurance",
+      "description": "Risk management and coverage services."
+    },
+    {
+      "id": "23",
+      "name": "Automotive",
+      "description": "Vehicle manufacturing, repair, and sales."
+    },
+    {
+      "id": "24",
+      "name": "Aerospace",
+      "description": "Aircraft manufacturing and space technologies."
+    },
+    {
+      "id": "25",
+      "name": "Environmental Services",
+      "description": "Waste management and environmental consulting."
+    },
+    {
+      "id": "26",
+      "name": "Biotechnology",
+      "description": "Genetic research, pharma, and medical innovations."
+    },
+    {
+      "id": "27",
+      "name": "Media & Journalism",
+      "description": "News reporting, publishing, and broadcasting."
+    },
+    {
+      "id": "28",
+      "name": "E-commerce",
+      "description": "Online shopping platforms and services."
+    },
+    {
+      "id": "29",
+      "name": "Cybersecurity",
+      "description": "Protecting systems and networks from digital threats."
+    },
+    {
+      "id": "30",
+      "name": "Fashion",
+      "description": "Design, production, and retail of clothing and accessories."
+    },
+    {
+      "id": "31",
+      "name": "Fitness & Wellness",
+      "description": "Gyms, personal training, and health coaching."
+    },
+    {
+      "id": "32",
+      "name": "Food & Beverage",
+      "description": "Restaurants, food manufacturing, and catering."
+    },
+    {
+      "id": "33",
+      "name": "Real Estate",
+      "description": "Property management, sales, and development."
+    }
   ],
-
-  "reason_leave":[
-      {
-      "id": 1,
+  "reason_leave": [
+    {
+      "id": "1",
       "reason": "Pursuing higher education opportunities"
     },
     {
-      "id": 2,
+      "id": "2",
       "reason": "Relocating to a different city"
     },
     {
-      "id": 3,
+      "id": "3",
       "reason": "Seeking better work-life balance"
     },
     {
-      "id": 4,
+      "id": "4",
       "reason": "Career change to a different industry"
     },
     {
-      "id": 5,
+      "id": "5",
       "reason": "Accepted a higher-paying job offer"
     },
     {
-      "id": 6,
+      "id": "6",
       "reason": "Company restructuring or downsizing"
     },
     {
-      "id": 7,
+      "id": "7",
       "reason": "Lack of growth or advancement opportunities"
     },
     {
-      "id": 8,
+      "id": "8",
       "reason": "Desire to start a personal business"
     },
     {
-      "id": 9,
+      "id": "9",
       "reason": "Work environment was not a good fit"
     },
     {
-      "id": 10,
+      "id": "10",
       "reason": "Contract or temporary position ended"
     }
   ],
-
   "province": [
-  { "id": 1, "name": "Tboung Khmum" },
-  { "id": 2, "name": "Takéo" },
-  { "id": 3, "name": "Svay Rieng" },
-  { "id": 4, "name": "Stung Treng" },
-  { "id": 5, "name": "Siem Reap" },
-  { "id": 6, "name": "Ratanakiri" },
-  { "id": 7, "name": "Pursat" },
-  { "id": 8, "name": "Prey Veng" },
-  { "id": 9, "name": "Preah Vihear" },
-  { "id": 10, "name": "Preah Sihanouk" },
-  { "id": 11, "name": "Phnom Penh" },
-  { "id": 12, "name": "Pailin" },
-  { "id": 13, "name": "Oddar Meanchey" },
-  { "id": 14, "name": "Mondulkiri" },
-  { "id": 15, "name": "Kratié" },
-  { "id": 16, "name": "Koh Kong" },
-  { "id": 17, "name": "Kep" },
-  { "id": 18, "name": "Kandal" },
-  { "id": 19, "name": "Kampot" },
-  { "id": 20, "name": "Kampong Thom" },
-  { "id": 21, "name": "Kampong Speu" },
-  { "id": 22, "name": "Kampong Chhnang" },
-  { "id": 23, "name": "Kampong Cham" },
-  { "id": 24, "name": "Battambang" },
-  { "id": 25, "name": "Banteay Meanchey" }
-],
-
-"language": [
-  { "id": 1, "category": "English", "items": ["Excellent", "Above Average", "Good", "Fair", "Poor"] },
-  { "id": 2, "category": "Khmer", "items":   ["Excellent", "Above Average", "Good", "Fair", "Poor"] },
-  { "id": 3, "category": "China", "items":   ["Excellent", "Above Average", "Good", "Fair", "Poor"] }
-],
-
-"software": [
     {
-    "id": 1,
-    "category": "General & Internet",
-    "items": ["Microsoft Word", "Microsoft Excel", "Microsoft PowerPoint",  "Slack", "Trello"]
-  },
+      "id": "1",
+      "name": "Tboung Khmum"
+    },
     {
-    "id": 2,
-    "category": "Design & Creative",
-    "items":["Adobe Photoshop", "Adobe Illustrator", "CorelDRAW", "Canva", "Figma"]
-  },
+      "id": "2",
+      "name": "Takéo"
+    },
     {
-    "id": 3,
-    "category": "Accounting Software",
-    "items":["QuickBooks", "Xero", "FreshBooks", "Sage", "Zoho Books"]
-  },
+      "id": "3",
+      "name": "Svay Rieng"
+    },
     {
-    "id": 4,
-    "category": "Development Tools",
-    "items":["Asana", "Jira", "Monday.com", "Basecamp", "Microsoft Project"]
-  }
-],
+      "id": "4",
+      "name": "Stung Treng"
+    },
+    {
+      "id": "5",
+      "name": "Siem Reap"
+    },
+    {
+      "id": "6",
+      "name": "Ratanakiri"
+    },
+    {
+      "id": "7",
+      "name": "Pursat"
+    },
+    {
+      "id": "8",
+      "name": "Prey Veng"
+    },
+    {
+      "id": "9",
+      "name": "Preah Vihear"
+    },
+    {
+      "id": "10",
+      "name": "Preah Sihanouk"
+    },
+    {
+      "id": "11",
+      "name": "Phnom Penh"
+    },
+    {
+      "id": "12",
+      "name": "Pailin"
+    },
+    {
+      "id": "13",
+      "name": "Oddar Meanchey"
+    },
+    {
+      "id": "14",
+      "name": "Mondulkiri"
+    },
+    {
+      "id": "15",
+      "name": "Kratié"
+    },
+    {
+      "id": "16",
+      "name": "Koh Kong"
+    },
+    {
+      "id": "17",
+      "name": "Kep"
+    },
+    {
+      "id": "18",
+      "name": "Kandal"
+    },
+    {
+      "id": "19",
+      "name": "Kampot"
+    },
+    {
+      "id": "20",
+      "name": "Kampong Thom"
+    },
+    {
+      "id": "21",
+      "name": "Kampong Speu"
+    },
+    {
+      "id": "22",
+      "name": "Kampong Chhnang"
+    },
+    {
+      "id": "23",
+      "name": "Kampong Cham"
+    },
+    {
+      "id": "24",
+      "name": "Battambang"
+    },
+    {
+      "id": "25",
+      "name": "Banteay Meanchey"
+    }
+  ],
 
-"findout_hrinc":[
-{
-  "id": 1,
-  "category": "facebook page",
-  "items": ["ReCruitment Cambodia by HRINC", "HRINC Jobs", "HRINC TAC Cambodia", "HRINC Executive Search", "HRINC Technical Recruitment Specialists"]
-},
-{
-  "id": 2,
-  "category": "linkedin & social media",
-  "items": ["HRINC (Cambodia) Co.,Ltd", "Recruitment Myanmar by HRINC", "HRINC Jobs", "Telegram: HRINC Jobs Channel", "Instagram: hrinc_jobs", "YouTube: HRINC Jobs"]
-},
-{
-  "id": 3,
-  "category": "WEBSITE and Others",
-  "items": ["HRINC Jobs (www.hrincjobs.com)", "HRINC (www.hrinc.asia)", "Friends/Family Members", "Universities:"]
-}
-],
 
- "hrinc_platforms": [
+  "languages": [
+    {
+      "id": 1,
+      "items": "Nahuatl"
+    },
+    {
+      "id": 2,
+      "items": "Mongolian"
+    },
+    {
+      "id": 3,
+      "items": "Mende"
+    },
+    {
+      "id": 4,
+      "items": "Marathi"
+    },
+    {
+      "id": 5,
+      "items": "Mandarin (Chinese)"
+    },
+    {
+      "id": 6,
+      "items": "Malayalam"
+    },
+    {
+      "id": 7,
+      "items": "Malay (Bahasa Melayu)"
+    },
+    {
+      "id": 8,
+      "items": "Malagasy"
+    },
+    {
+      "id": 9,
+      "items": "Maithili"
+    },
+    {
+      "id": 10,
+      "items": "Macedonian"
+    },
+    {
+      "id": 11,
+      "items": "Mandarin"
+    },
+    {
+      "id": 12,
+      "items": "Lithuanian"
+    },
+    {
+      "id": 13,
+      "items": "Lingala"
+    },
+    {
+      "id": 14,
+      "items": "Latvian"
+    },
+    {
+      "id": 15,
+      "items": "Latin"
+    },
+    {
+      "id": 16,
+      "items": "K’iche’"
+    },
+    {
+      "id": 17,
+      "items": "Kyrgyz"
+    },
+    {
+      "id": 18,
+      "items": "Kurdish"
+    },
+    {
+      "id": 19,
+      "items": "Khoekhoe"
+    },
+    {
+      "id": 20,
+      "items": "Kazakh"
+    },
+    {
+      "id": 21,
+      "items": "Kashmiri"
+    },
+    {
+      "id": 22,
+      "items": "Filipino"
+    },
+    {
+      "id": 23,
+      "items": "Kannada"
+    },
+    {
+      "id": 24,
+      "items": "Kabyle"
+    },
+    {
+      "id": 25,
+      "items": "Javanese"
+    },
+    {
+      "id": 26,
+      "items": "Jarai"
+    },
+    {
+      "id": 27,
+      "items": "Italian"
+    },
+    {
+      "id": 28,
+      "items": "Irish Gaelic"
+    },
+    {
+      "id": 29,
+      "items": "Inuit/Inupiaq"
+    },
+    {
+      "id": 30,
+      "items": "Indonesian (Bahasa Indonesia)"
+    },
+    {
+      "id": 31,
+      "items": "Ilocano"
+    },
+    {
+      "id": 32,
+      "items": "Igbo"
+    },
+    {
+      "id": 33,
+      "items": "Burmese"
+    },
+    {
+      "id": 34,
+      "items": "Icelandic"
+    },
+    {
+      "id": 35,
+      "items": "Hungarian"
+    },
+    {
+      "id": 36,
+      "items": "Hindi"
+    },
+    {
+      "id": 37,
+      "items": "Hiligaynon"
+    },
+    {
+      "id": 38,
+      "items": "Hebrew"
+    },
+    {
+      "id": 39,
+      "items": "Hawaiian Creole"
+    },
+    {
+      "id": 40,
+      "items": "Hawaiian"
+    },
+    {
+      "id": 41,
+      "items": "Hausa"
+    },
+    {
+      "id": 42,
+      "items": "Haitian Creole"
+    },
+    {
+      "id": 43,
+      "items": "Gujarati"
+    },
+    {
+      "id": 44,
+      "items": "Malaysian"
+    },
+    {
+      "id": 45,
+      "items": "Guarani"
+    },
+    {
+      "id": 46,
+      "items": "Greek"
+    },
+    {
+      "id": 47,
+      "items": "Gikuyu"
+    },
+    {
+      "id": 48,
+      "items": "German"
+    },
+    {
+      "id": 49,
+      "items": "Georgian"
+    },
+    {
+      "id": 50,
+      "items": "French"
+    },
+    {
+      "id": 51,
+      "items": "Finnish"
+    },
+    {
+      "id": 52,
+      "items": "Estonian"
+    },
+    {
+      "id": 53,
+      "items": "Esperanto"
+    },
+    {
+      "id": 54,
+      "items": "Dutch"
+    },
+    {
+      "id": 55,
+      "items": "Lao"
+    },
+    {
+      "id": 56,
+      "items": "Dholuo"
+    },
+    {
+      "id": 57,
+      "items": "Dari"
+    },
+    {
+      "id": 58,
+      "items": "Danish"
+    },
+    {
+      "id": 59,
+      "items": "Dakota"
+    },
+    {
+      "id": 60,
+      "items": "Czech"
+    },
+    {
+      "id": 61,
+      "items": "Croatian"
+    },
+    {
+      "id": 62,
+      "items": "Cherokee"
+    },
+    {
+      "id": 63,
+      "items": "Chechen"
+    },
+    {
+      "id": 64,
+      "items": "Cebuano"
+    },
+    {
+      "id": 65,
+      "items": "Catalan"
+    },
+    {
+      "id": 66,
+      "items": "Indonesian"
+    },
+    {
+      "id": 67,
+      "items": "Cantonese"
+    },
+    {
+      "id": 68,
+      "items": "Bulgarian"
+    },
+    {
+      "id": 69,
+      "items": "Brahui"
+    },
+    {
+      "id": 70,
+      "items": "Bosnian"
+    },
+    {
+      "id": 71,
+      "items": "Bislama"
+    },
+    {
+      "id": 72,
+      "items": "Bhojpuri"
+    },
+    {
+      "id": 73,
+      "items": "Bengali"
+    },
+    {
+      "id": 74,
+      "items": "Belarusan"
+    },
+    {
+      "id": 75,
+      "items": "Basque"
+    },
+    {
+      "id": 76,
+      "items": "Bashkort (Bashkir)"
+    },
+    {
+      "id": 77,
+      "items": "Malay"
+    },
+    {
+      "id": 78,
+      "items": "Bamanankan"
+    },
+    {
+      "id": 79,
+      "items": "Balochi"
+    },
+    {
+      "id": 80,
+      "items": "Azerbaijani"
+    },
+    {
+      "id": 81,
+      "items": "Aymara"
+    },
+    {
+      "id": 82,
+      "items": "Assamese"
+    },
+    {
+      "id": 83,
+      "items": "Armenian"
+    },
+    {
+      "id": 84,
+      "items": "Aramaic"
+    },
+    {
+      "id": 85,
+      "items": "Arabic (Overview)"
+    },
+    {
+      "id": 86,
+      "items": "Arabic (Moroccan Spoken)"
+    },
+    {
+      "id": 87,
+      "items": "Arabic (Modern Standard)"
+    },
+    {
+      "id": 88,
+      "items": "Khmer"
+    },
+    {
+      "id": 89,
+      "items": "Arabic (Levantine)"
+    },
+    {
+      "id": 90,
+      "items": "Arabic (Egyptian Spoken)"
+    },
+    {
+      "id": 91,
+      "items": "Amharic"
+    },
+    {
+      "id": 92,
+      "items": "Albanian"
+    },
+    {
+      "id": 93,
+      "items": "Éwé"
+    },
+    {
+      "id": 94,
+      "items": "Zulu"
+    },
+    {
+      "id": 95,
+      "items": "Zapotec"
+    },
+    {
+      "id": 96,
+      "items": "Afrikaans"
+    },
+    {
+      "id": 97,
+      "items": "Yucatec"
+    },
+    {
+      "id": 98,
+      "items": "Yoruba"
+    },
+    {
+      "id": 99,
+      "items": "Yiddish"
+    },
+    {
+      "id": 100,
+      "items": "Yakut"
+    },
+    {
+      "id": 101,
+      "items": "Xhosa"
+    },
+    {
+      "id": 102,
+      "items": "Wolof"
+    },
+    {
+      "id": 103,
+      "items": "Welsh"
+    },
+    {
+      "id": 104,
+      "items": "Warlpiri"
+    },
+    {
+      "id": 105,
+      "items": "Uzbek"
+    },
+    {
+      "id": 106,
+      "items": "Uyghur"
+    },
+    {
+      "id": 107,
+      "items": "Korean"
+    },
+    {
+      "id": 108,
+      "items": "Urdu"
+    },
+    {
+      "id": 109,
+      "items": "Ukrainian"
+    },
+    {
+      "id": 110,
+      "items": "Turkmen"
+    },
+    {
+      "id": 111,
+      "items": "Turkish"
+    },
+    {
+      "id": 112,
+      "items": "Tok Pisin"
+    },
+    {
+      "id": 113,
+      "items": "Tigrigna"
+    },
+    {
+      "id": 114,
+      "items": "Tibetic Languages"
+    },
+    {
+      "id": 115,
+      "items": "Telugu"
+    },
+    {
+      "id": 116,
+      "items": "Tatar"
+    },
+    {
+      "id": 117,
+      "items": "Tamil"
+    },
+    {
+      "id": 118,
+      "items": "Japanese"
+    },
+    {
+      "id": 119,
+      "items": "Tajiki"
+    },
+    {
+      "id": 120,
+      "items": "Tagalog"
+    },
+    {
+      "id": 121,
+      "items": "Tachelhit"
+    },
+    {
+      "id": 122,
+      "items": "Swedish"
+    },
+    {
+      "id": 123,
+      "items": "Swahili"
+    },
+    {
+      "id": 124,
+      "items": "Spanish"
+    },
+    {
+      "id": 125,
+      "items": "Somali"
+    },
+    {
+      "id": 126,
+      "items": "Slovene"
+    },
+    {
+      "id": 127,
+      "items": "Slovak"
+    },
+    {
+      "id": 128,
+      "items": "Sinhala"
+    },
+    {
+      "id": 129,
+      "items": "Standard Chinese"
+    },
+    {
+      "id": 130,
+      "items": "Sindhi"
+    },
+    {
+      "id": 131,
+      "items": "Shona"
+    },
+    {
+      "id": 132,
+      "items": "Serbian"
+    },
+    {
+      "id": 133,
+      "items": "Sanskrit"
+    },
+    {
+      "id": 134,
+      "items": "Rwanda"
+    },
+    {
+      "id": 135,
+      "items": "Russian"
+    },
+    {
+      "id": 136,
+      "items": "Romanian"
+    },
+    {
+      "id": 137,
+      "items": "Romani"
+    },
+    {
+      "id": 138,
+      "items": "Quechua"
+    },
+    {
+      "id": 139,
+      "items": "Punjabi"
+    },
+    {
+      "id": 140,
+      "items": "Vietitemsse"
+    },
+    {
+      "id": 141,
+      "items": "Portuguese"
+    },
+    {
+      "id": 142,
+      "items": "Polish"
+    },
+    {
+      "id": 143,
+      "items": "Persian"
+    },
+    {
+      "id": 144,
+      "items": "Pashto"
+    },
+    {
+      "id": 145,
+      "items": "Oromo"
+    },
+    {
+      "id": 146,
+      "items": "Oriya"
+    },
+    {
+      "id": 147,
+      "items": "Ojibwa"
+    },
+    {
+      "id": 148,
+      "items": "Norwegian"
+    },
+    {
+      "id": 149,
+      "items": "Nepali"
+    },
+    {
+      "id": 150,
+      "items": "Navajo"
+    },
+    {
+      "id": 151,
+      "items": "Thai"
+    },
+    {
+      "id": 152,
+      "items": "English"
+    },
+    {
+      "id": 153,
+      "items": "Taiwanese"
+    }
+  ],
+
+
+  "level_type": [
+    {
+      "id": "1",
+      "name": "Beginner"
+    },
+    {
+      "id": "2",
+      "name": "Intermediate"
+    },
+    {
+      "id": "3",
+      "name": "Advanced"
+    }
+  ],
+  "software": [
+    {
+      "id": "1",
+      "category": "General & Internet",
+      "items": [
+        "Microsoft Word",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Slack",
+        "Trello"
+      ]
+    },
+    {
+      "id": "2",
+      "category": "Design & Creative",
+      "items": [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "CorelDRAW",
+        "Canva",
+        "Figma"
+      ]
+    },
+    {
+      "id": "3",
+      "category": "Accounting Software",
+      "items": [
+        "QuickBooks",
+        "Xero",
+        "FreshBooks",
+        "Sage",
+        "Zoho Books"
+      ]
+    },
+    {
+      "id": "4",
+      "category": "Development Tools",
+      "items": [
+        "Asana",
+        "Jira",
+        "Monday.com",
+        "Basecamp",
+        "Microsoft Project"
+      ]
+    }
+  ],
+  "findout_hrinc": [
+    {
+      "id": "1",
+      "category": "facebook page",
+      "items": [
+        "ReCruitment Cambodia by HRINC",
+        "HRINC Jobs",
+        "HRINC TAC Cambodia",
+        "HRINC Executive Search",
+        "HRINC Technical Recruitment Specialists"
+      ]
+    },
+    {
+      "id": "2",
+      "category": "linkedin & social media",
+      "items": [
+        "HRINC (Cambodia) Co.,Ltd",
+        "Recruitment Myanmar by HRINC",
+        "HRINC Jobs",
+        "Telegram: HRINC Jobs Channel",
+        "Instagram: hrinc_jobs",
+        "YouTube: HRINC Jobs"
+      ]
+    },
+    {
+      "id": "3",
+      "category": "WEBSITE and Others",
+      "items": [
+        "HRINC Jobs (www.hrincjobs.com)",
+        "HRINC (www.hrinc.asia)",
+        "Friends/Family Members",
+        "Universities:"
+      ]
+    }
+  ],
+  "hrinc_platforms": [
     {
       "platform": "LINKEDIN PAGE",
       "sources": [
@@ -177,7 +1047,8 @@
           "id": 5,
           "title": "Recruitment Myanmar by HRINC"
         }
-      ]
+      ],
+      "id": "eee7"
     },
     {
       "platform": "FACEBOOK PAGE",
@@ -198,7 +1069,8 @@
           "id": 9,
           "title": "HRINC Outsourcing"
         }
-      ]
+      ],
+      "id": "c141"
     },
     {
       "platform": "Others",
@@ -227,11 +1099,11 @@
           "id": 15,
           "title": "YouTube: HRINC Jobs"
         }
-      ]
+      ],
+      "id": "e6cb"
     }
   ],
-
-"software_skills": [
+  "software_skills": [
     {
       "parent_skill": "Microsoft Software & General Productivity",
       "skills": [
@@ -249,7 +1121,8 @@
         "Microsoft PowerPoint",
         "Microsoft Excel",
         "Microsoft Word"
-      ]
+      ],
+      "id": "dfc3"
     },
     {
       "parent_skill": "Engineering Software & Development Tools",
@@ -270,7 +1143,8 @@
         "SketchUp",
         "SolidWorks",
         "AutoCAD (Autodesk)"
-      ]
+      ],
+      "id": "2100"
     },
     {
       "parent_skill": "Accounting, Data Science & Analytics Software",
@@ -291,7 +1165,8 @@
         "Sage Business Cloud Accounting",
         "Xero",
         "QuickBooks Online"
-      ]
+      ],
+      "id": "178c"
     },
     {
       "parent_skill": "HR, Sales & CRM, Marketing Design Software ",
@@ -313,188 +1188,1151 @@
         "Oracle ERP Cloud",
         "SAP SuccessFactors",
         "Workday HCM"
-      ]
+      ],
+      "id": "7266"
     }
   ],
-
-"contact_method": [
-   { "id": 1, "name": "Phone Call" },
-   { "id": 2, "name": "Telegram" },
-   { "id": 3, "name": "Facebook Messenger" },
-   { "id": 4, "name": "Whatsapp" },
-   { "id": 5, "name": "Line" },
-   { "id": 6, "name": "Mobile Job Portal" }
-],
-
-"benefit":[
-  { "id": 1, "name": "Yearly Increase Percentage %" },
-  { "id": 2, "name": "13th month bonus" },
-  { "id": 3, "name": "Variable performance bonus" },
-  { "id": 4, "name": "Family health insurance" },
-  { "id": 5, "name": "Sale Incentive (Monthly, Quarterly or Yearly)" },
-  { "id": 6, "name": "Education Allowance" },
-  { "id": 7, "name": "Signing Bonus / Retention Bonus" },
-  { "id": 8, "name": "Professional Development/Training" },
-  { "id": 9, "name": "Company Provident Fund" },
-  { "id": 10, "name": "Kids’ Education Support" },
-  { "id": 11, "name": "Profit Sharing" },
-  { "id": 12, "name": "Wellness Programs (e.g. Gym membership, yoga)" },
-  { "id": 13, "name": "Accommodation Allowance" },
-  { "id": 14, "name": "Flexible Work Hours" },
-  { "id": 15, "name": "Transportation/ Petrol Allowance" },
-  { "id": 16, "name": "Remote Work Options" },
-  { "id": 17, "name": "Mobile/Phone Allowance" },
-  { "id": 18, "name": "Recognition Programs / Awards" },
-  { "id": 19, "name": "Meal Allowance" },
-  { "id": 20, "name": "Staff Loan" },
-  { "id": 21, "name": "Medical Aid" },
-  { "id": 22, "name": "Others: (please specify)" },
-  { "id": 23, "name": "Accident Insurance" },
-  { "id": 24, "name": "Health Insurance" },
-  { "id": 25, "name": "Life Insurance" }
-],
-
- "competencies": [
+  "contact_method": [
     {
-      "name": "Adaptability",
-      "definition": "The ability to adjust to new conditions and handle unexpected challenges.",
-      "beginner_level_description": "Reacts to change; adjusts to new tasks.",
-      "intermediate_level_description": "Embraces change; seeks to understand its impact.",
-      "advanced_level_description": "Leads change initiatives; adapts strategy dynamically, ensuring organisational resilience."
+      "id": "1",
+      "name": "Phone Call"
     },
     {
-      "name": "Analytical Thinking",
-      "definition": "The skill of understanding and solving complex problems through analysis.",
-      "beginner_level_description": "Identifies basic patterns and problems.",
-      "intermediate_level_description": "Analyses data to inform decisions.",
-      "advanced_level_description": "Integrates complex data across sources; drives strategic decisions."
+      "id": "2",
+      "name": "Telegram"
     },
     {
-      "name": "Communication",
-      "definition": "The capacity to convey information effectively and efficiently.",
-      "beginner_level_description": "Communicates in straightforward situations.",
-      "intermediate_level_description": "Communicates complex ideas clearly in group settings.",
-      "advanced_level_description": "Excels in persuasive communication; influences and negotiates effectively."
+      "id": "3",
+      "name": "Facebook Messenger"
     },
     {
-      "name": "Conflict Resolution",
-      "definition": "The ability to identify, address, and manage conflicts constructively.",
-      "beginner_level_description": "Recognizes conflicts and alerts supervisors.",
-      "intermediate_level_description": "Mediates conflicts directly to find mutual solutions.",
-      "advanced_level_description": "Manages complex conflicts, guides others in resolution techniques."
+      "id": "4",
+      "name": "Whatsapp"
     },
     {
-      "name": "Creativity",
-      "definition": "The capacity to think outside the box and generate innovative ideas.",
-      "beginner_level_description": "Applies basic creativity to tasks as directed.",
-      "intermediate_level_description": "Develops new approaches to improve work processes.",
-      "advanced_level_description": "Leads innovation initiatives, champions a culture of creativity and experimentation."
+      "id": "5",
+      "name": "Line"
     },
     {
-      "name": "Critical Thinking",
-      "definition": "The ability to analyse facts, generate and organise ideas, defend opinions, make comparisons, draw inferences, evaluate arguments and solve problems.",
-      "beginner_level_description": "Questions facts and seeks clarity.",
-      "intermediate_level_description": "Analyses information to form reasoned judgments.",
-      "advanced_level_description": "Synthesizes and integrates new information, influencing strategic decisions."
+      "id": "6",
+      "name": "Mobile Job Portal"
+    }
+  ],
+  "benefit": [
+    {
+      "id": "1",
+      "name": "Yearly Increase Percentage %"
     },
     {
-      "name": "Customer Service",
-      "definition": "The skills needed to provide support and advice to customers effectively.",
-      "beginner_level_description": "Responds to customer inquiries.",
-      "intermediate_level_description": "Manages customer issues effectively.",
-      "advanced_level_description": "Drives customer engagement and loyalty programs."
+      "id": "2",
+      "name": "13th month bonus"
     },
     {
-      "name": "Decision Making",
-      "definition": "The process of making choices by identifying a decision, gathering information, and assessing alternative resolutions.",
-      "beginner_level_description": "Makes simple decisions based on clear criteria.",
-      "intermediate_level_description": "Makes moderately complex decisions considering various factors.",
-      "advanced_level_description": "Makes strategic decisions under uncertainty, influences organisational direction."
+      "id": "3",
+      "name": "Variable performance bonus"
     },
     {
-      "name": "Emotional Intelligence",
-      "definition": "The ability to perceive, control, and evaluate emotions in oneself and others.",
-      "beginner_level_description": "Recognizes own emotions and their effects.",
-      "intermediate_level_description": "Manages emotions and responds appropriately to others.",
-      "advanced_level_description": "Uses emotional information to guide thinking and behaviour, improves team relations."
+      "id": "4",
+      "name": "Family health insurance"
     },
     {
-      "name": "Entrepreneurial",
-      "definition": "The ability and desire to develop, organise, and manage a business venture along with any of its risks to make a profit.",
-      "beginner_level_description": "Identifies opportunities for improvement.",
-      "intermediate_level_description": "Develops new ideas and initiatives for growth.",
-      "advanced_level_description": "Drives business innovation and strategic ventures."
+      "id": "5",
+      "name": "Sale Incentive (Monthly, Quarterly or Yearly)"
     },
     {
-      "name": "Financial Acumen",
-      "definition": "The ability to understand and apply financial management principles in the workplace.",
-      "beginner_level_description": "Understands basic financial terms and concepts.",
-      "intermediate_level_description": "Analyses financial reports and contributes to budget planning.",
-      "advanced_level_description": "Strategises based on financial data to enhance business profitability."
+      "id": "6",
+      "name": "Education Allowance"
     },
     {
-      "name": "Influence",
-      "definition": "The capacity to have an effect on the character, development, or behaviour of someone or something.",
-      "beginner_level_description": "Persuades peers with direct data or authority.",
-      "intermediate_level_description": "Influences cross-functional teams without formal authority.",
-      "advanced_level_description": "Shapes organisational strategy and external stakeholders’ perspectives."
+      "id": "7",
+      "name": "Signing Bonus / Retention Bonus"
     },
     {
-      "name": "Initiative",
-      "definition": "The ability to assess and initiate things independently.",
-      "beginner_level_description": "Takes on tasks without being told.",
-      "intermediate_level_description": "Seeks leadership roles in projects, suggests innovations.",
-      "advanced_level_description": "Leads projects and strategic initiatives impacting the broader business scope."
+      "id": "8",
+      "name": "Professional Development/Training"
     },
     {
-      "name": "Integrity",
-      "definition": "The quality of being honest and having strong moral principles.",
-      "beginner_level_description": "Adheres to workplace rules and policies.",
-      "intermediate_level_description": "Demonstrates ethical behaviour, inspires trust.",
-      "advanced_level_description": "Upholds and champions integrity in complex scenarios, organisational ethics."
+      "id": "9",
+      "name": "Company Provident Fund"
     },
     {
-      "name": "Interpersonal Skills",
-      "definition": "The skills used by a person to interact with others properly.",
-      "beginner_level_description": "Communicates effectively in direct interactions.",
-      "intermediate_level_description": "Builds relationships, mediates in team settings.",
-      "advanced_level_description": "Masters diplomacy, manages complex stakeholder relationships."
+      "id": "10",
+      "name": "Kids’ Education Support"
     },
     {
-      "name": "Leadership",
-      "definition": "The action of leading a group of people or an organisation.",
-      "beginner_level_description": "Directs small teams or projects effectively.",
-      "intermediate_level_description": "Inspires and motivates larger teams, manages performance.",
-      "advanced_level_description": "Visionary leadership, shapes organisational culture and strategy."
+      "id": "11",
+      "name": "Profit Sharing"
     },
     {
-      "name": "Negotiation",
-      "definition": "The ability to reach agreements between two or more parties with conflicting interests.",
-      "beginner_level_description": "Negotiates simple agreements effectively.",
-      "intermediate_level_description": "Manages complex negotiations, achieving favourable terms.",
-      "advanced_level_description": "Strategically negotiates major contracts impacting the organisation’s direction."
+      "id": "12",
+      "name": "Wellness Programs (e.g. Gym membership, yoga)"
     },
     {
-      "name": "Organisational Skills",
-      "definition": "The ability to manage time and resources effectively to achieve desired outcomes.",
-      "beginner_level_description": "Keeps personal work area and tasks organised.",
-      "intermediate_level_description": "Coordinates multiple projects efficiently.",
-      "advanced_level_description": "Designs and implements organisational systems on a large scale."
+      "id": "13",
+      "name": "Accommodation Allowance"
     },
     {
-      "name": "Performance Management",
-      "definition": "The process of ensuring that set performance standards are achieved in a consistent manner.",
-      "beginner_level_description": "Assists in tracking performance metrics.",
-      "intermediate_level_description": "Manages and improves team performance.",
-      "advanced_level_description": "Leads organisation-wide performance enhancement strategies."
+      "id": "14",
+      "name": "Flexible Work Hours"
+    },
+    {
+      "id": "15",
+      "name": "Transportation/ Petrol Allowance"
+    },
+    {
+      "id": "16",
+      "name": "Remote Work Options"
+    },
+    {
+      "id": "17",
+      "name": "Mobile/Phone Allowance"
+    },
+    {
+      "id": "18",
+      "name": "Recognition Programs / Awards"
+    },
+    {
+      "id": "19",
+      "name": "Meal Allowance"
+    },
+    {
+      "id": "20",
+      "name": "Staff Loan"
+    },
+    {
+      "id": "21",
+      "name": "Medical Aid"
+    },
+    {
+      "id": "22",
+      "name": "Others: (please specify)"
+    },
+    {
+      "id": "23",
+      "name": "Accident Insurance"
+    },
+    {
+      "id": "24",
+      "name": "Health Insurance"
+    },
+    {
+      "id": "25",
+      "name": "Life Insurance"
+    }
+  ],
+  "competencies": [
+    {
+      "name": "Time Management",
+      "definition": "The ability to use one’s time effectively or productively.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Manages personal deadlines effectively."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Prioritises and schedules work tasks across a team."
+        },
+        {
+          "level": "Advanced",
+          "description": "Optimises workflows and improves time efficiency across the organisation."
+        }
+      ],
+      "id": "8b64"
+    },
+    {
+      "name": "Technical Proficiency",
+      "definition": "The ability to use technical skills or knowledge to perform specific tasks.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Operates basic tools and follows procedures."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Applies technical skills to solve job-specific problems."
+        },
+        {
+          "level": "Advanced",
+          "description": "Masters and innovates with new technologies, guiding others."
+        }
+      ],
+      "id": "c6ce"
+    },
+    {
+      "name": "Teamwork",
+      "definition": "The combined action of a group, especially when effective and efficient.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Collaborates effectively within a team."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Fosters team collaboration and handles conflicts."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leads teams in complex projects, ensuring high performance and synergy."
+        }
+      ],
+      "id": "26c7"
+    },
+    {
+      "name": "Strategic Thinking",
+      "definition": "The ability to think on a broad scale, involving long term planning and consideration of the implications and consequences of proposed actions.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Understands and contributes to team strategies."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Develops strategies for specific business challenges."
+        },
+        {
+          "level": "Advanced",
+          "description": "Shapes and directs organisational strategy with a long-term perspective."
+        }
+      ],
+      "id": "fabc"
+    },
+    {
+      "name": "Strategic Planning",
+      "definition": "The ability to outline business strategies for growth and efficiency.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Understands basic planning principles."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Able to develop functional strategies."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leads organisation-wide strategy formulation."
+        }
+      ],
+      "id": "7c6d"
+    },
+    {
+      "name": "Self-Management",
+      "definition": "The ability to prioritise goals, manage time, and maintain a positive attitude in the face of challenges.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Manages own tasks and meets deadlines."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Sets personal goals and monitors progress."
+        },
+        {
+          "level": "Advanced",
+          "description": "Self-regulates effectively under high pressure, inspiring others."
+        }
+      ],
+      "id": "c257"
+    },
+    {
+      "name": "Sales Effectiveness",
+      "definition": "The ability to consistently hit or exceed revenue targets through sales activities.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Learns product details and basic sales techniques."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Implements advanced sales strategies to meet targets."
+        },
+        {
+          "level": "Advanced",
+          "description": "Drives sales innovation and develops long-term sales strategies."
+        }
+      ],
+      "id": "4de1"
+    },
+    {
+      "name": "Risk Management",
+      "definition": "The identification, evaluation, and prioritisation of risks followed by coordinated and economical application of resources to minimise, monitor, and control the probability or impact of unfortunate events.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Identifies potential risks in assigned tasks."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Manages and mitigates risks in projects."
+        },
+        {
+          "level": "Advanced",
+          "description": "Develops risk management strategies affecting organisational goals."
+        }
+      ],
+      "id": "cd88"
+    },
+    {
+      "name": "Responsibility",
+      "definition": "The duty to deal with something or of having control over someone.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Follows directives and maintains commitments."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Proactively takes charge of roles without oversight."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leads by example, ensuring accountability at all levels."
+        }
+      ],
+      "id": "b06c"
+    },
+    {
+      "name": "Resource Management",
+      "definition": "The efficient and effective deployment of organisation’s resources when they are needed.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Manages resources for individual tasks."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Optimises resource use for departmental projects."
+        },
+        {
+          "level": "Advanced",
+          "description": "Strategizes resource allocation across the organisation for maximum efficiency."
+        }
+      ],
+      "id": "7cdc"
+    },
+    {
+      "name": "Resilience",
+      "definition": "The capacity to recover quickly from difficulties; toughness.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Maintains performance under stress."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Overcomes challenges and rebounds from setbacks."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leads teams through crises, sustaining operational integrity."
+        }
+      ],
+      "id": "96a8"
+    },
+    {
+      "name": "Relationship Building",
+      "definition": "The ability to establish and maintain positive and effective working relationships.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Builds rapport with immediate colleagues."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Cultivates strong relationships within and outside the organisation."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leverages relationships to enhance business outcomes and organisational reputation."
+        }
+      ],
+      "id": "808a"
+    },
+    {
+      "name": "Quality Management",
+      "definition": "The act of overseeing all activities and tasks needed to maintain a desired level of excellence.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Monitors quality standards in assigned tasks."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Implements quality control processes."
+        },
+        {
+          "level": "Advanced",
+          "description": "Sets and enforces quality standards across the organisation."
+        }
+      ],
+      "id": "25e4"
+    },
+    {
+      "name": "Project Management",
+      "definition": "The discipline of planning, organising, securing, managing, leading, and controlling resources to achieve specific goals.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Manages small, defined projects."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Oversees larger projects with multiple stakeholders."
+        },
+        {
+          "level": "Advanced",
+          "description": "Directs major projects with broad organisational impact."
+        }
+      ],
+      "id": "a95e"
+    },
+    {
+      "name": "Problem Solving",
+      "definition": "The ability to identify solutions to problems in effective and efficient ways.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Addresses straightforward problems."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Solves complex problems creatively."
+        },
+        {
+          "level": "Advanced",
+          "description": "Develops innovative solutions to strategic issues."
+        }
+      ],
+      "id": "8281"
     },
     {
       "name": "Personal Development",
       "definition": "The commitment to improving one’s skills, abilities, and knowledge.",
-      "beginner_level_description": "Identifies areas for personal skill development.",
-      "intermediate_level_description": "Actively pursues learning and skills improvement.",
-      "advanced_level_description": "Mentors others and drives a culture of continuous personal growth."
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Identifies areas for personal skill development."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Actively pursues learning and skills improvement."
+        },
+        {
+          "level": "Advanced",
+          "description": "Mentors others and drives a culture of continuous personal growth."
+        }
+      ],
+      "id": "4a6c"
+    },
+    {
+      "name": "Performance Management",
+      "definition": "The process of ensuring that set performance standards are achieved in a consistent manner.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Assists in tracking performance metrics."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Manages and improves team performance."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leads organisation-wide performance enhancement strategies."
+        }
+      ],
+      "id": "4391"
+    },
+    {
+      "name": "Organisational Skills",
+      "definition": "The ability to manage time and resources effectively to achieve desired outcomes.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Keeps personal work area and tasks organised."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Coordinates multiple projects efficiently."
+        },
+        {
+          "level": "Advanced",
+          "description": "Designs and implements organisational systems on a large scale."
+        }
+      ],
+      "id": "df92"
+    },
+    {
+      "name": "Negotiation",
+      "definition": "The ability to reach agreements between two or more parties with conflicting interests.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Negotiates simple agreements effectively."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Manages complex negotiations, achieving favourable terms."
+        },
+        {
+          "level": "Advanced",
+          "description": "Strategically negotiates major contracts impacting the organisation’s direction."
+        }
+      ],
+      "id": "bc86"
+    },
+    {
+      "name": "Leadership",
+      "definition": "The action of leading a group of people or an organisation.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Directs small teams or projects effectively."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Inspires and motivates larger teams, manages performance."
+        },
+        {
+          "level": "Advanced",
+          "description": "Visionary leadership, shapes organisational culture and strategy."
+        }
+      ],
+      "id": "397a"
+    },
+    {
+      "name": "Interpersonal Skills",
+      "definition": "The skills used by a person to interact with others properly.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Communicates effectively in direct interactions."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Builds relationships, mediates in team settings."
+        },
+        {
+          "level": "Advanced",
+          "description": "Masters diplomacy, manages complex stakeholder relationships."
+        }
+      ],
+      "id": "7478"
+    },
+    {
+      "name": "Integrity",
+      "definition": "The quality of being honest and having strong moral principles.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Adheres to workplace rules and policies."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Demonstrates ethical behaviour, inspires trust."
+        },
+        {
+          "level": "Advanced",
+          "description": "Upholds and champions integrity in complex scenarios, organisational ethics."
+        }
+      ],
+      "id": "75de"
+    },
+    {
+      "name": "Initiative",
+      "definition": "The ability to assess and initiate things independently.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Takes on tasks without being told."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Seeks leadership roles in projects, suggests innovations."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leads projects and strategic initiatives impacting the broader business scope."
+        }
+      ],
+      "id": "b6dd"
+    },
+    {
+      "name": "Influence",
+      "definition": "The capacity to have an effect on the character, development, or behaviour of someone or something.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Persuades peers with direct data or authority."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Influences cross-functional teams without formal authority."
+        },
+        {
+          "level": "Advanced",
+          "description": "Shapes organisational strategy and external stakeholders’ perspectives."
+        }
+      ],
+      "id": "adab"
+    },
+    {
+      "name": "Financial Acumen",
+      "definition": "The ability to understand and apply financial management principles in the workplace.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Understands basic financial terms and concepts."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Analyses financial reports and contributes to budget planning."
+        },
+        {
+          "level": "Advanced",
+          "description": "Strategises based on financial data to enhance business profitability."
+        }
+      ],
+      "id": "f5d2"
+    },
+    {
+      "name": "Entrepreneurial",
+      "definition": "The ability and desire to develop, organise, and manage a business venture along with any of its risks to make a profit.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Identifies opportunities for improvement."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Develops new ideas and initiatives for growth."
+        },
+        {
+          "level": "Advanced",
+          "description": "Drives business innovation and strategic ventures."
+        }
+      ],
+      "id": "eff4"
+    },
+    {
+      "name": "Emotional Intelligence",
+      "definition": "The ability to perceive, control, and evaluate emotions in oneself and others.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Recognizes own emotions and their effects."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Manages emotions and responds appropriately to others."
+        },
+        {
+          "level": "Advanced",
+          "description": "Uses emotional information to guide thinking and behaviour, improves team relations."
+        }
+      ],
+      "id": "5509"
+    },
+    {
+      "name": "Decision Making",
+      "definition": "The process of making choices by identifying a decision, gathering information, and assessing alternative resolutions.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Makes simple decisions based on clear criteria."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Makes moderately complex decisions considering various factors."
+        },
+        {
+          "level": "Advanced",
+          "description": "Makes strategic decisions under uncertainty, influences organisational direction."
+        }
+      ],
+      "id": "e42a"
+    },
+    {
+      "name": "Customer Service",
+      "definition": "The skills needed to provide support and advice to customers effectively.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Responds to customer inquiries."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Manages customer issues effectively."
+        },
+        {
+          "level": "Advanced",
+          "description": "Drives customer engagement and loyalty programs."
+        }
+      ],
+      "id": "c3c9"
+    },
+    {
+      "name": "Critical Thinking",
+      "definition": "The ability to analyse facts, generate and organise ideas, defend opinions, make comparisons, draw inferences, evaluate arguments and solve problems.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Questions facts and seeks clarity."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Analyses information to form reasoned judgments."
+        },
+        {
+          "level": "Advanced",
+          "description": "Synthesizes and integrates new information, influencing strategic decisions."
+        }
+      ],
+      "id": "05b2"
+    },
+    {
+      "name": "Creativity",
+      "definition": "The capacity to think outside the box and generate innovative ideas.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Applies basic creativity to tasks as directed."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Develops new approaches to improve work processes."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leads innovation initiatives, champions a culture of creativity and experimentation."
+        }
+      ],
+      "id": "704e"
+    },
+    {
+      "name": "Conflict Resolution",
+      "definition": "The ability to identify, address, and manage conflicts constructively.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Recognizes conflicts and alerts supervisors."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Mediates conflicts directly to find mutual solutions."
+        },
+        {
+          "level": "Advanced",
+          "description": "Manages complex conflicts, guides others in resolution techniques."
+        }
+      ],
+      "id": "d973"
+    },
+    {
+      "name": "Communication",
+      "definition": "The capacity to convey information effectively and efficiently.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Communicates in straightforward situations."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Communicates complex ideas clearly in group settings."
+        },
+        {
+          "level": "Advanced",
+          "description": "Excels in persuasive communication; influences and negotiates effectively."
+        }
+      ],
+      "id": "6894"
+    },
+    {
+      "name": "Analytical Thinking",
+      "definition": "The skill of understanding and solving complex problems through analysis.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Identifies basic patterns and problems."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Analyses data to inform decisions."
+        },
+        {
+          "level": "Advanced",
+          "description": "Integrates complex data across sources; drives strategic decisions."
+        }
+      ],
+      "id": "33e4"
+    },
+    {
+      "name": "Adaptability",
+      "definition": "The ability to adjust to new conditions and handle unexpected challenges.",
+      "levels": [
+        {
+          "level": "Beginner",
+          "description": "Reacts to change; adjusts to new tasks."
+        },
+        {
+          "level": "Intermediate",
+          "description": "Embraces change; seeks to understand its impact."
+        },
+        {
+          "level": "Advanced",
+          "description": "Leads change initiatives; adapts strategy dynamically, ensuring organisational resilience."
+        }
+      ],
+      "id": "5b79"
+    }
+  ],
+  "leaving_reason": [
+    {
+      "reason": "Self-employment",
+      "id": "9ce6"
+    },
+    {
+      "reason": "Job insecurity / lack of stability",
+      "id": "e9cc"
+    },
+    {
+      "reason": "Conflict with Management or Colleagues",
+      "id": "694d"
+    },
+    {
+      "reason": "Health Issue",
+      "id": "5ca9"
+    },
+    {
+      "reason": "Lack of Recognition or Appreciation",
+      "id": "ba92"
+    },
+    {
+      "reason": "Work Location",
+      "id": "0ba0"
+    },
+    {
+      "reason": "Change in career direction",
+      "id": "12ce"
+    },
+    {
+      "reason": "End of Contract",
+      "id": "5e47"
+    },
+    {
+      "reason": "Lack of work-life balance",
+      "id": "411b"
+    },
+    {
+      "reason": "Company restructuring or downsizing",
+      "id": "2134"
+    },
+    {
+      "reason": "Relocation or personal reasons",
+      "id": "afb7"
+    },
+    {
+      "reason": "Seeking new challenges",
+      "id": "ff4a"
+    },
+    {
+      "reason": "Better compensation and benefits",
+      "id": "7770"
+    },
+    {
+      "reason": "Career growth opportunities",
+      "id": "8811"
+    }
+  ],
+  "contact": [
+    {
+      "id": "1",
+      "name": "Ah Hong",
+      "phone": "012354343",
+      "email": "Hong@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "monorom",
+      "phone": "12312321",
+      "email": "monorom@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Kim CHI",
+      "phone": "00000122",
+      "email": "Kim@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "HRINC JOB",
+      "phone": "01235234",
+      "email": "JOB@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "testing",
+      "phone": "123132",
+      "email": "asdf"
+    }
+  ],
+  "form": [
+    {
+      "id": "7194",
+      "DisplayName": "",
+      "address": {
+        "zipCode": "",
+        "street": ""
+      },
+      "bill": {
+        "zipCode": "",
+        "street": ""
+      }
+    },
+    {
+      "id": "35c0",
+      "DisplayName": "What your name",
+      "address": {
+        "zipCode": "10000",
+        "street": "242"
+      },
+      "bill": {
+        "zipCode": "df;lkdsjf",
+        "street": "2123"
+      }
+    },
+    {
+      "id": "50ae",
+      "DisplayName": "dasd",
+      "address": {
+        "zipCode": "sdfasdfa",
+        "street": "sdfa"
+      },
+      "bill": {
+        "zipCode": "sdfasdf",
+        "street": "asdfasdf"
+      }
+    },
+    {
+      "id": "f32c",
+      "DisplayName": "asdxasc3wc",
+      "users": [
+        {
+          "name": "",
+          "age": ""
+        },
+        {
+          "name": "",
+          "age": ""
+        }
+      ],
+      "address": {
+        "zipCode": "2q354adac",
+        "street": "123123123"
+      },
+      "bill": {
+        "zipCode": "123111111111111111111111",
+        "street": "111111111111"
+      }
+    },
+    {
+      "id": "52e6",
+      "DisplayName": "111111111",
+      "users": [
+        {
+          "name": null,
+          "age": null
+        },
+        {
+          "name": null,
+          "age": null
+        }
+      ],
+      "address": {
+        "zipCode": "1111111111",
+        "street": "1111111111"
+      },
+      "bill": {
+        "zipCode": "11111111111",
+        "street": "11111111111"
+      }
+    },
+    {
+      "id": "0b65",
+      "DisplayName": "21",
+      "users": [
+        {
+          "name": null,
+          "age": null
+        },
+        {
+          "name": null,
+          "age": null
+        }
+      ],
+      "address": {
+        "zipCode": "1212",
+        "street": "12"
+      },
+      "bill": {
+        "zipCode": "1212",
+        "street": "1221"
+      }
+    },
+    {
+      "id": "2077",
+      "DisplayName": "",
+      "users": [
+        {
+          "name": "",
+          "age": ""
+        },
+        {
+          "name": "",
+          "age": ""
+        }
+      ],
+      "address": {
+        "zipCode": "",
+        "street": ""
+      },
+      "bill": {
+        "zipCode": "qwqw",
+        "street": "1qwqw"
+      }
+    },
+    {
+      "id": "0293",
+      "DisplayName": "1231233",
+      "users": [
+        {
+          "name": "",
+          "age": ""
+        },
+        {
+          "name": "",
+          "age": ""
+        }
+      ],
+      "address": {
+        "zipCode": "123123",
+        "street": "123123"
+      },
+      "bill": {
+        "zipCode": "123123123",
+        "street": "1223123123"
+      }
+    },
+    {
+      "id": "7f28",
+      "DisplayName": "111",
+      "users": [
+        {
+          "name": null,
+          "age": null
+        },
+        {
+          "name": null,
+          "age": null
+        }
+      ],
+      "address": {
+        "zipCode": "11",
+        "street": "11"
+      },
+      "bill": {
+        "zipCode": "11",
+        "street": "111"
+      }
+    },
+    {
+      "id": "c67f",
+      "DisplayName": "dfcaszdf",
+      "users": [
+        {
+          "name": "",
+          "age": ""
+        },
+        {
+          "name": "",
+          "age": ""
+        }
+      ],
+      "address": {
+        "zipCode": "asdf",
+        "street": "asdf"
+      },
+      "bill": {
+        "zipCode": "asdf",
+        "street": "asdf"
+      }
+    },
+    {
+      "id": "a917",
+      "DisplayName": null,
+      "users": [
+        {
+          "name": "asdf",
+          "age": null
+        },
+        {
+          "name": "asdf",
+          "age": null
+        }
+      ],
+      "address": {
+        "zipCode": null,
+        "street": null
+      },
+      "bill": {
+        "zipCode": null,
+        "street": null
+      }
+    },
+    {
+      "id": "0cd6",
+      "DisplayName": "",
+      "users": [
+        {
+          "name": "",
+          "age": ""
+        },
+        {
+          "name": "",
+          "age": ""
+        }
+      ],
+      "address": {
+        "zipCode": "",
+        "street": ""
+      },
+      "bill": {
+        "zipCode": "",
+        "street": ""
+      }
+    },
+    {
+      "id": "82e9",
+      "DisplayName": null,
+      "users": [
+        {
+          "name": null,
+          "age": null
+        },
+        {
+          "name": null,
+          "age": null
+        }
+      ],
+      "address": {
+        "zipCode": null,
+        "street": null
+      },
+      "bill": {
+        "zipCode": null,
+        "street": null
+      }
     }
   ]
-
 }
